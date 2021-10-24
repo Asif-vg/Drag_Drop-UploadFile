@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5256ad;
+}
+
+.drag-area {
+  border: 2px dashed #fff;
+  width: 700px;
+  height: 500px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.drag-area.active {
+  border: 2px solid #fff;
+}
+
+.drag-area img {
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.drag-area .icon {
+  font-size: 100px;
+  color: #fff;
+}
+
+.drag-area header {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.drag-area span {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  margin: 10px 0px 15px 0px;
+}
+
+.drag-area button {
+  color: #5256ad;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  background: #fff;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
